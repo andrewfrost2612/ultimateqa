@@ -1,0 +1,18 @@
+{
+  "name": "ultimateqa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tests:chrome": "playwright test --project=Chromium --headed",
+    "tests:firefox": "playwright test --project=Firefox --headed",
+    "tests:webkit": "playwright test --project=Webkit --headed",
+    "tests:all": "playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.25.0"
+  }
+}
